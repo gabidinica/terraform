@@ -1,0 +1,11 @@
+#local .teraform directory
+.terraform/*
+
+# terraform state files
+*.tfstate
+*.tfstate.*
+
+# terraform variables may include sesitive data
+*.tfvars
+
+*.DS_Store
